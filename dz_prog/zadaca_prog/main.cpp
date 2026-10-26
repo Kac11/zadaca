@@ -19,10 +19,11 @@ int main() {
     for (int redniBroj = 1; redniBroj <= 3; redniBroj++) {
         int kolicina;
 
-        do {
-            cout << "Kupnja " << redniBroj << " unesi broj ulaznica (1-30): ";
-            cin >> kolicina;
-        } while (!ispravanUnos(kolicina));
+        
+            
+         while (!ispravanUnos(kolicina)){
+             cout << "Kupnja " << redniBroj << " unesi broj ulaznica (1-30): ";
+            cin >> kolicina;}
 
         double iznos = izracunajIznos(kolicina);
         evidentirajKupnju(kolicina, iznos);
