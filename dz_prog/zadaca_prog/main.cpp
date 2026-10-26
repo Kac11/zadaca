@@ -19,7 +19,7 @@ int main() {
     for (int redniBroj = 1; redniBroj <= 3; redniBroj++) {
         int kolicina;  
          cout << "Kupnja " << redniBroj << " unesi broj ulaznica (1-30): ";
-            cin >> kolicina;}
+            cin >> kolicina;
          while (!ispravanUnos(kolicina)){
              cout << "Kupnja " << redniBroj << " unesi broj ulaznica (1-30): ";
             cin >> kolicina;}
